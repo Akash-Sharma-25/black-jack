@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: blue;
+            text-align: center;
+            padding: 15px;
+        }
+        h1{
+            color: rgb(22, 245, 141);
+        }
+        #message-el , p{
+            color: white;
+        }
+        button{
+            color: tomato;
+            font-size:large;
+            background-color: yellow;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 110px;
+            height: 50px;
+            margin: 10px;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>BLACK JACK</h1>
+    <P id="message-el">do you want to play ?</P>
+    <p id="card-el">cards : </p>
+    <p id="sum-el">Sum : </p>
+    <button onclick="startGame()">START GAME</button>
+    <button onclick="card()">NEW CARD</button>
+    <br>
+    <hr>
+<p id="greeting-el"></p>
+
+    <script src="index.js"></script>
+</body>
+</html>
